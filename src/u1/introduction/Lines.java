@@ -4,25 +4,55 @@ import javax.swing.JPanel;
 import java.awt.*;
 
 public class Lines extends JPanel {
+    int gridSize;
+
+    public Lines(int gridSize) {
+        this.gridSize = gridSize;
+    }
+
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
+        setBackground(Color.black);
         g.setColor(Color.RED);
-        for (int i = 1; i < 10; i++) {
-            int x = getWidth() / 10 * i;
+        drawVerticalLines(g);
+        g.setColor(Color.BLUE);
+        drawHorizontalLines(g);
+        g.setColor(Color.CYAN);
+        drawLeftToRightDiagonals(g);
+        g.setColor(Color.YELLOW);
+        drawRightToLeftDiagonals(g);
+    }
+
+    private void drawVerticalLines(Graphics g) {
+        for (int i = 1; i < gridSize; i++) {
+            int x = getWidth() / gridSize * i;
             g.drawLine(x, 0, x, getHeight());
         }
-        g.setColor(Color.BLUE);
-        for (int i = 1; i < 10; i++) {
-            int y = getHeight() / 10 * i;
+    }
+
+    private void drawHorizontalLines(Graphics g) {
+        for (int i = 1; i < gridSize; i++) {
+            int y = getHeight() / gridSize * i;
             g.drawLine(0, y, getWidth(), y);
         }
-        g.setColor(Color.BLACK);
-        for (int i = 0, j = 10; i <= 10 && j >= 0; i++, j--) {
-            int x = getWidth() / 10 * i;
-            int y = getHeight() / 10 * j;
-            g.drawLine(x, getHeight(), 0, y);
+    }
+
+    private void drawLeftToRightDiagonals(Graphics g) {
+        for (int i = 1; i <= gridSize; i++) {
+            int x = getWidth() / gridSize * i;
+            int y = getHeight() / gridSize * i;
+            g.drawLine(x, 0, 0, y);
+            g.drawLine(getWidth(), y, x, getHeight());
         }
-        g.drawOval(getWidth() / 2 - 50, getHeight() / 2 - 50, 100, 100);
+    }
+
+    private void drawRightToLeftDiagonals(Graphics g) {
+        for (int i = 0, j = gridSize; i < gridSize && j > 0; i++, j--) {
+            int x = getWidth() / gridSize * i;
+            int y = getHeight() / gridSize * j;
+            g.drawLine(x, 0, getWidth(), y);
+            g.drawLine(0, y, x, getHeight());
+        }
     }
 }

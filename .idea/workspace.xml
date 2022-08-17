@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopicosAvanzados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u1/diagnostico/Diagnostico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u1/example/DrawingPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u1/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/introduction/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/introduction/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/Circles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/introduction/Lines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/Lines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/introduction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +34,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pedro/Dev/School/TopicosAvanzados&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="u1.introduction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.introduction.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u1.introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.u1.introduction.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +75,8 @@
       <workItem from="1660612063126" duration="89000" />
       <workItem from="1660658859567" duration="461000" />
       <workItem from="1660665892076" duration="3027000" />
+      <workItem from="1660701878769" duration="4273000" />
+      <workItem from="1660709040744" duration="1340000" />
     </task>
     <servers />
   </component>
