@@ -1,0 +1,15 @@
+Material:
+Libro de Deitel & Deitel cap 26
+Curso de Android y Kotlin Udacity
+
+Fechas de Evaluacion
+12 Sep
+17 Oct
+7 Nov
+
+Evaluacion
+40% Examen
+40% Practicas
+10% Investigacion
+10% Asistencia
+
