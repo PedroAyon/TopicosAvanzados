@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/u1/equations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u1/equations/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u1/equations/OnlyNumbersKeyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/equations/EquationSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/equations/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/equations/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/u1/label_frame/LabelFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/label_frame/LabelFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,6 +166,8 @@
       <workItem from="1661359356146" duration="672000" />
       <workItem from="1661364098149" duration="620000" />
       <workItem from="1661397016265" duration="4316000" />
+      <workItem from="1661401339638" duration="272000" />
+      <workItem from="1661443504887" duration="2587000" />
     </task>
     <servers />
   </component>

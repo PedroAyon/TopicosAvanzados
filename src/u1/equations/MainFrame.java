@@ -13,6 +13,8 @@ public class MainFrame extends JFrame implements ActionListener {
     private JButton buttonClear;
     private final Font font = new Font("Courier", Font.BOLD, 20);
 
+    private final ViewController viewController = new ViewController();
+
     public MainFrame() {
         super("2nd grade equations");
         initComponents();
@@ -52,7 +54,7 @@ public class MainFrame extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if (source == buttonCalculate) {
-            if (validateFields()) calculate();
+            if (validateFields()) solve();
             else JOptionPane.showMessageDialog(null, "Please fill in all the fields");
         } else if (source == buttonClear) clearFields();
     }
@@ -61,15 +63,13 @@ public class MainFrame extends JFrame implements ActionListener {
         return !textFieldA.getText().isEmpty() && !textFieldB.getText().isEmpty() && !textFieldC.getText().isEmpty();
     }
 
-    private void calculate() {
+    private void solve() {
         double a = Double.parseDouble(textFieldA.getText());
         double b = Double.parseDouble(textFieldB.getText());
         double c = Double.parseDouble(textFieldC.getText());
-        double radicand = Math.pow(b, 2) - 4 * a * c;
-        if (radicand >= 0) {
-            double x1 = (-b + Math.sqrt(radicand)) / 2 * a;
-            double x2 = (-b - Math.sqrt(radicand)) / 2 * a;
-            JOptionPane.showMessageDialog(null, String.format("X1: %.2f\nX2: %.2f", x1, x2));
+        if (viewController.solve(a, b, c)) {
+            JOptionPane.showMessageDialog(null,
+                    String.format("X1: %.2f\nX2: %.2f", viewController.getX1(), viewController.getX2()));
         } else JOptionPane.showMessageDialog(null, "Complex numbers");
     }
 

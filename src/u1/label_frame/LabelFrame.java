@@ -12,6 +12,7 @@ public class LabelFrame extends JFrame {
     public LabelFrame() {
         super("JLabel test");
         setLayout(new FlowLayout());
+
         ImageIcon imageIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("java.png")));
         Image image = imageIcon.getImage();
         image = image.getScaledInstance(120, 120, Image.SCALE_SMOOTH);
