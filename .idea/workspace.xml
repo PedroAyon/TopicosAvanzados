@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/u1/introduction/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/label_frame/LabelFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/label_frame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/label_frame/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/textfields/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/textfields/TextFieldFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u1/introduction/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/Circles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/introduction/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/CirclesPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/u1/introduction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/introduction/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,18 +37,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/pedro/Dev/School/TopicosAvanzados",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pedro/Dev/TopicosAvanzados/src/u1/label_frame&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.u1.introduction.Main">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/u1/label_frame" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.introduction.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u1.introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Suma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="u1.introduction.Suma" />
       <module name="TopicosAvanzados" />
@@ -58,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u1.introduction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.introduction.Main" />
+    <configuration name="u1.label_frame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.label_frame.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u1.introduction.*" />
+          <option name="PATTERN" value="u1.label_frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="u1.textfields.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.textfields.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u1.textfields.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.u1.introduction.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.u1.textfields.Main" />
+        <item itemvalue="Application.u1.label_frame.Main" />
         <item itemvalue="Application.Suma" />
       </list>
     </recent_temporary>
@@ -108,6 +145,16 @@
       <workItem from="1660934316935" duration="346000" />
       <workItem from="1660934702334" duration="304000" />
       <workItem from="1661137100205" duration="83000" />
+      <workItem from="1661184221537" duration="1680000" />
+      <workItem from="1661186318438" duration="772000" />
+      <workItem from="1661190078294" duration="284000" />
+      <workItem from="1661268310194" duration="1333000" />
+      <workItem from="1661357014086" duration="15000" />
+      <workItem from="1661357035541" duration="902000" />
+      <workItem from="1661358781690" duration="254000" />
+      <workItem from="1661359041798" duration="308000" />
+      <workItem from="1661359356146" duration="672000" />
+      <workItem from="1661364098149" duration="620000" />
     </task>
     <servers />
   </component>

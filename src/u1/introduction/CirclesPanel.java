@@ -3,11 +3,11 @@ package u1.introduction;
 import javax.swing.*;
 import java.awt.*;
 
-public class Circles extends JPanel {
+public class CirclesPanel extends JPanel {
     int biggestCircleSize;
     int numberOfCircles;
 
-    public Circles(int biggestCircleSize, int numberOfCircles) {
+    public CirclesPanel(int biggestCircleSize, int numberOfCircles) {
         this.biggestCircleSize = biggestCircleSize;
         this.numberOfCircles = numberOfCircles;
     }
@@ -20,9 +20,11 @@ public class Circles extends JPanel {
         int y = getHeight() / 2;
         int sizeDecrement = biggestCircleSize / numberOfCircles;
         int size = biggestCircleSize;
-        for (int circleCount = 0; circleCount < numberOfCircles; circleCount++, size -= sizeDecrement) {
-            if (circleCount % 2 == 0) g.setColor(Color.BLACK);
-            else g.setColor(Color.WHITE);
+        for (int circleCount = 0;
+             circleCount < numberOfCircles;
+             circleCount++, size -= sizeDecrement) {
+            if (circleCount % 2 == 0) g.setColor(Color.WHITE);
+            else g.setColor(Color.BLACK);
             g.fillOval(x - size / 2, y - size / 2, size, size);
         }
     }
