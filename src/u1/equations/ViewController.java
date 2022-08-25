@@ -1,10 +1,13 @@
 package u1.equations;
 
 public class ViewController {
+    private double a;
+    private double b;
+    private double c;
     private double x1;
     private double x2;
 
-    public boolean solve(double a, double b, double c) {
+    public boolean solve() {
         double radicand = Math.pow(b, 2) - 4 * a * c;
         if (radicand >= 0) {
             x1 = (-b + Math.sqrt(radicand)) / 2 * a;
@@ -12,6 +15,18 @@ public class ViewController {
             return true;
         }
         return false;
+    }
+
+    public void setA(double a) {
+        this.a = a;
+    }
+
+    public void setB(double b) {
+        this.b = b;
+    }
+
+    public void setC(double c) {
+        this.c = c;
     }
 
     public double getX1() {

@@ -55,19 +55,21 @@ public class MainFrame extends JFrame implements ActionListener {
         Object source = e.getSource();
         if (source == buttonCalculate) {
             if (validateFields()) solve();
-            else JOptionPane.showMessageDialog(null, "Please fill in all the fields");
         } else if (source == buttonClear) clearFields();
     }
 
     private boolean validateFields() {
-        return !textFieldA.getText().isEmpty() && !textFieldB.getText().isEmpty() && !textFieldC.getText().isEmpty();
+        if (!textFieldA.getText().isEmpty() && !textFieldB.getText().isEmpty() && !textFieldC.getText().isEmpty())
+            return true;
+        JOptionPane.showMessageDialog(null, "Please fill in all the fields");
+        return false;
     }
 
     private void solve() {
-        double a = Double.parseDouble(textFieldA.getText());
-        double b = Double.parseDouble(textFieldB.getText());
-        double c = Double.parseDouble(textFieldC.getText());
-        if (viewController.solve(a, b, c)) {
+        viewController.setA(Double.parseDouble(textFieldA.getText()));
+        viewController.setB(Double.parseDouble(textFieldB.getText()));
+        viewController.setC(Double.parseDouble(textFieldC.getText()));
+        if (viewController.solve()) {
             JOptionPane.showMessageDialog(null,
                     String.format("X1: %.2f\nX2: %.2f", viewController.getX1(), viewController.getX2()));
         } else JOptionPane.showMessageDialog(null, "Complex numbers");
