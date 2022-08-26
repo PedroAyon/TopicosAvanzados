@@ -9,12 +9,11 @@ public class ViewController {
 
     public boolean solve() {
         double radicand = Math.pow(b, 2) - 4 * a * c;
-        if (radicand >= 0) {
-            x1 = (-b + Math.sqrt(radicand)) / 2 * a;
-            x2 = (-b - Math.sqrt(radicand)) / 2 * a;
-            return true;
-        }
-        return false;
+        if (radicand < 0)
+            return false;
+        x1 = (-b + Math.sqrt(radicand)) / 2 * a;
+        x2 = (-b - Math.sqrt(radicand)) / 2 * a;
+        return true;
     }
 
     public void setA(double a) {

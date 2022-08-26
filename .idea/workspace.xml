@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/u1/equations/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/equations/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/u1/equations/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/equations/ViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +166,8 @@
       <workItem from="1661397016265" duration="4316000" />
       <workItem from="1661401339638" duration="272000" />
       <workItem from="1661443504887" duration="3058000" />
+      <workItem from="1661457916700" duration="2541000" />
+      <workItem from="1661477135659" duration="1177000" />
     </task>
     <servers />
   </component>
