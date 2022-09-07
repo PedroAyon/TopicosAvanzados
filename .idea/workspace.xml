@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/u1/form/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/form/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/form/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/mouse_over/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/mouse_over/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/shapes/DibujarRectangulos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/shapes/DrawShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/shapes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/shapes/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u1/shapes/ShapeFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u1/equations/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u1/equations/ViewController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +56,13 @@
       <recent name="$PROJECT_DIR$/src/u1/label_frame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.u1.equations.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.introduction.Main" />
+  <component name="RunManager" selected="Application.u1.shapes.Main">
+    <configuration name="DibujarRectangulos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.shapes.DibujarRectangulos" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u1.introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Suma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.introduction.Suma" />
-      <module name="TopicosAvanzados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u1.introduction.*" />
+          <option name="PATTERN" value="u1.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u1.label_frame.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.label_frame.Main" />
+    <configuration name="u1.form.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.form.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u1.label_frame.*" />
+          <option name="PATTERN" value="u1.form.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u1.textfields.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.textfields.Main" />
+    <configuration name="u1.mouse_over.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.mouse_over.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u1.equations.*" />
+          <option name="PATTERN" value="u1.mouse_over.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="u1.shapes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u1.shapes.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u1.shapes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.u1.shapes.Main" />
+        <item itemvalue="Application.u1.form.Main" />
+        <item itemvalue="Application.DibujarRectangulos" />
+        <item itemvalue="Application.u1.mouse_over.Main" />
         <item itemvalue="Application.u1.equations.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.u1.textfields.Main" />
-        <item itemvalue="Application.u1.label_frame.Main" />
-        <item itemvalue="Application.Suma" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +176,30 @@
       <workItem from="1661401339638" duration="272000" />
       <workItem from="1661443504887" duration="3058000" />
       <workItem from="1661457916700" duration="2541000" />
-      <workItem from="1661477135659" duration="1177000" />
+      <workItem from="1661477135659" duration="1687000" />
+      <workItem from="1661488900694" duration="6000" />
+      <workItem from="1661530316412" duration="2483000" />
+      <workItem from="1661647546755" duration="155000" />
+      <workItem from="1661875882577" duration="731000" />
+      <workItem from="1661877012840" duration="597000" />
+      <workItem from="1661935221534" duration="1047000" />
+      <workItem from="1661944586182" duration="2069000" />
+      <workItem from="1661964664167" duration="26000" />
+      <workItem from="1662001217979" duration="1376000" />
+      <workItem from="1662002601116" duration="1536000" />
+      <workItem from="1662023469999" duration="1305000" />
+      <workItem from="1662127117118" duration="809000" />
+      <workItem from="1662135107517" duration="370000" />
+      <workItem from="1662135616612" duration="665000" />
+      <workItem from="1662393996286" duration="1648000" />
+      <workItem from="1662395906858" duration="724000" />
+      <workItem from="1662408946650" duration="889000" />
+      <workItem from="1662428872436" duration="135000" />
+      <workItem from="1662435634875" duration="39000" />
+      <workItem from="1662439597968" duration="124000" />
+      <workItem from="1662473172723" duration="2316000" />
+      <workItem from="1662479750382" duration="3352000" />
+      <workItem from="1662494707363" duration="2396000" />
     </task>
     <servers />
   </component>
