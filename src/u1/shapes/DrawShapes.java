@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.geom.Rectangle2D;
 import java.util.Stack;
 
 public class DrawShapes extends JComponent {
@@ -51,7 +50,7 @@ public class DrawShapes extends JComponent {
     @Override
     public void paint(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        g2.setColor(Color.RED);
+        g2.setColor(Color.BLACK);
         for (Shape shape : shapes)
             g2.fill(shape);
         if (dragStart != null && dragEnd != null) {

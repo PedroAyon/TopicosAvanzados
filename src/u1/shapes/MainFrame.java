@@ -31,8 +31,6 @@ public class MainFrame extends JFrame {
 
     private void paintView() {
         setLayout(new BoxLayout(getContentPane(), BoxLayout.PAGE_AXIS));
-        drawShapes.setBackground(Color.GREEN);
-        setBackground(Color.BLACK);
         add(drawShapes);
         add(jRadioButtonRectangle);
         add(jRadioButtonOval);
