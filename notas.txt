@@ -13,3 +13,9 @@ Evaluacion
 10% Investigacion
 10% Asistencia
 
+UNIDAD 2
+
+Clases de envoltura de tipos
+Integer[] arregloEntero = new Integer[5];
+arregloEntero[0] = 10;
+int valor = arregloEntero[0];
