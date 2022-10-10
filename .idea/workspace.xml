@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/u2/juego/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/juego/Pregunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/juego/Respuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/lists/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/merge_sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/problemas/Problema1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/problemas/Problema2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cedarsoftware_java_util.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u2/carrera/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u2/carrera/MainJFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u2/librerias/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicosAvanzados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TopicosAvanzados.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +37,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/pedro/Dev/TopicosAvanzados/src/u1/label_frame&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -54,9 +59,9 @@
       <recent name="$PROJECT_DIR$/src/u1/label_frame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problema2">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u2.Arrays" />
+  <component name="RunManager" selected="Application.u2.carrera.Main">
+    <configuration name="Juego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u2.juego.Juego" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Juego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u2.juego.Juego" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u2.librerias.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u2.juego.*" />
+          <option name="PATTERN" value="u2.librerias.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u1.shapes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u1.shapes.Main" />
+    <configuration name="u2.carrera.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u2.carrera.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u1.shapes.*" />
+          <option name="PATTERN" value="u2.carrera.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.u2.carrera.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Problema2" />
         <item itemvalue="Application.Problema1" />
         <item itemvalue="Application.Juego" />
-        <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.u1.shapes.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +221,14 @@
       <workItem from="1664363224340" duration="2136000" />
       <workItem from="1664449968253" duration="535000" />
       <workItem from="1664554452233" duration="2040000" />
+      <workItem from="1664842362614" duration="82000" />
+      <workItem from="1664928322248" duration="14000" />
+      <workItem from="1664946974746" duration="1410000" />
+      <workItem from="1665140761250" duration="399000" />
+      <workItem from="1665159755866" duration="2181000" />
+      <workItem from="1665162013808" duration="83000" />
+      <workItem from="1665418089018" duration="1451000" />
+      <workItem from="1665419788024" duration="633000" />
     </task>
     <servers />
   </component>
