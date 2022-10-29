@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b3b707-fc2b-4f0e-9a85-f50091a01401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cedarsoftware_java_util.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/carrera/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/carrera/MainJFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/u2/librerias/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/banco/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/banco/CuentaCompartida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/banco/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/sincronizacion/Arreglo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/sincronizacion/Escritor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/u3/sincronizacion/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopicosAvanzados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TopicosAvanzados.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u2/carrera/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u3/carrera/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u2/carrera/MainJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u3/carrera/MainJFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,39 +62,13 @@
       <recent name="$PROJECT_DIR$/src/u1/label_frame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.u2.carrera.Main">
-    <configuration name="Juego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u2.juego.Juego" />
-      <module name="TopicosAvanzados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u2.juego.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.u3.banco.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="u2.librerias.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="u2.librerias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problema1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u2.problemas.Problema1" />
-      <module name="TopicosAvanzados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="u2.problemas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +89,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="u2.carrera.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="u2.carrera.Main" />
+    <configuration name="u3.banco.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u3.banco.Main" />
       <module name="TopicosAvanzados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="u2.carrera.*" />
+          <option name="PATTERN" value="u3.banco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="u3.carrera.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u3.carrera.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u3.carrera.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="u3.sincronizacion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="u3.sincronizacion.Main" />
+      <module name="TopicosAvanzados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="u3.sincronizacion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.u2.carrera.Main" />
+        <item itemvalue="Application.u3.banco.Main" />
+        <item itemvalue="Application.u3.sincronizacion.Main" />
+        <item itemvalue="Application.u3.carrera.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Problema2" />
-        <item itemvalue="Application.Problema1" />
-        <item itemvalue="Application.Juego" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +231,14 @@
       <workItem from="1665159755866" duration="2181000" />
       <workItem from="1665162013808" duration="83000" />
       <workItem from="1665418089018" duration="1451000" />
-      <workItem from="1665419788024" duration="633000" />
+      <workItem from="1665419788024" duration="699000" />
+      <workItem from="1665584015480" duration="1686000" />
+      <workItem from="1665590718060" duration="1759000" />
+      <workItem from="1665763906519" duration="2924000" />
+      <workItem from="1665980935638" duration="58000" />
+      <workItem from="1666015856030" duration="1762000" />
+      <workItem from="1666022791687" duration="1745000" />
+      <workItem from="1666800400134" duration="218000" />
     </task>
     <servers />
   </component>
